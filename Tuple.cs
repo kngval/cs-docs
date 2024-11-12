@@ -3,7 +3,7 @@ public class Tuple
 {
     public static void CreateTuple()
     {
-      using CustomTuple = (string s, double d);
+      // using CustomTuple = (string s, double d);
         (int, string, float) t1 = (5, "hi", 1.2f);
         Console.WriteLine($"{t1.Item1} {t1.Item2}, {t1.Item3}");
     }
